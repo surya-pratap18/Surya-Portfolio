@@ -102,12 +102,13 @@ export default function App() {
                   </a>
 
                   <a
-                    href="/assets/Surya_Pratap_Mallick_Software_Developer_Resume (1).pdf"
+                    href={`${import.meta.env.BASE_URL}assets/Surya_Pratap_Mallick_Software_Developer_Resume (1).pdf`}
                     className="btn ghost"
                     target="_blank"
                     rel="noopener noreferrer"
+                    download="Surya_Pratap_Mallick_Resume.pdf"
                   >
-                    Download Résumé
+                    Download Resume
                   </a>
                 </div>
               </div>

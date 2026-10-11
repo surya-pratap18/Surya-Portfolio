@@ -26,9 +26,11 @@ export default function Navbar({ theme, setTheme }) {
           ))}
           <li>
             <a
-              href="/assets/Surya_Pratap_Mallick_Software_Developer_Resume (1).pdf"
-              className="nav-cta"
+              href={`${import.meta.env.BASE_URL}assets/Surya_Pratap_Mallick_Software_Developer_Resume (1).pdf`}
+              className="btn ghost"
               target="_blank"
+              rel="noopener noreferrer"
+              download="Surya_Pratap_Mallick_Resume.pdf"
             >
               Resume ↓
             </a>
